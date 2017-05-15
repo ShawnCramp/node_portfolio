@@ -1,0 +1,19 @@
+header {
+  height: 600px;
+  background: url("../images/index_background.jpg") center center;
+  background-size: cover; }
+  header .logo {
+    float: left;
+    margin: 10px 0 0 30px;
+    color: black; }
+  header nav a {
+    display: inline-block;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase; }
+    header nav a:hover {
+      color: black; }
+
+/*# sourceMappingURL=style.css.map */
