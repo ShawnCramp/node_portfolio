@@ -90,7 +90,7 @@ header {
 .projects {
   text-align: center;
   padding: 30px;
-  background: lightgray; }
+  background: rgba(0, 0, 0, 0.05); }
   .projects h3 {
     padding: 0 0 30px 0;
     font-size: 20px;
@@ -108,5 +108,47 @@ header {
     width: 100px;
     height: 100px;
     border-radius: 50%; }
+
+.skills {
+  text-align: center;
+  padding: 30px;
+  background: white; }
+  .skills h3 {
+    padding: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase; }
+
+.hobbies {
+  text-align: center;
+  padding: 30px;
+  background: rgba(0, 91, 170, 0.05); }
+  .hobbies h3 {
+    padding: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .hobbies h2 {
+    padding: 0 0 30px 0;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .hobbies .hobby-img {
+    background: url("http://placehold.it/350x150") center center;
+    background-size: cover;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
+
+.contact-me {
+  text-align: center;
+  padding: 30px;
+  background: white; }
+  .contact-me h3 {
+    padding: 0 0 30px 0;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase; }
 
 /*# sourceMappingURL=style.css.map */
