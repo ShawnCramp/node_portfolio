@@ -67,10 +67,12 @@ header {
 
 .about-me {
   text-align: center;
-  padding: 50px; }
-  .about-me h2 {
+  padding: 30px; }
+  .about-me h3 {
+    font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding: 0 0 30px 0; }
   .about-me .face {
     background: url("../images/face-picture.jpg") center center;
     background-size: cover;
@@ -87,10 +89,24 @@ header {
 
 .projects {
   text-align: center;
-  padding: 50px;
+  padding: 30px;
   background: lightgray; }
-  .projects h2 {
+  .projects h3 {
+    padding: 0 0 30px 0;
+    font-size: 20px;
     font-weight: 700;
     text-transform: uppercase; }
+  .projects h2 {
+    padding: 0 0 30px 0;
+    font-weight: 700;
+    text-transform: uppercase; }
+  .projects .project-img {
+    background: url("http://placehold.it/350x150") center center;
+    background-size: cover;
+    padding: 20px 0 20px 0;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; }
 
 /*# sourceMappingURL=style.css.map */
