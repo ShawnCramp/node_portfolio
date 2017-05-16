@@ -1,0 +1,9 @@
+{
+  "name": "node_portfolio",
+  "version": "2.9.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.3.0",
+    "jQuery": "1"
+  }
+}

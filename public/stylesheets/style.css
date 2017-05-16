@@ -1,19 +1,65 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300; }
+
 header {
-  height: 600px;
+  height: 500px;
   background: url("../images/index_background.jpg") center center;
   background-size: cover; }
   header .logo {
     float: left;
     margin: 10px 0 0 30px;
-    color: black; }
-  header nav a {
-    display: inline-block;
-    margin-left: 20px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 14px;
+    background: rgba(150, 150, 150, 0.7);
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px; }
+    header .logo .upper_parallelogram {
+      width: 30px;
+      height: 30px;
+      margin: 20px 0 0 45px;
+      -webkit-transform: skew(340deg);
+      -moz-transform: skew(340deg);
+      -o-transform: skew(340deg);
+      background: rgba(0, 173, 241, 0.7);
+      position: absolute;
+      border: black solid 1px; }
+    header .logo .lower_parallelogram {
+      width: 30px;
+      height: 30px;
+      margin: 50px 0 0 25px;
+      -webkit-transform: skew(340deg);
+      -moz-transform: skew(340deg);
+      -o-transform: skew(340deg);
+      background: rgba(0, 91, 170, 0.7);
+      position: absolute;
+      border: black solid 1px; }
+  header nav {
+    float: right;
+    margin: 30px 30px 0 0; }
+    header nav a {
+      display: inline-block;
+      margin-left: 20px;
+      color: white;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase; }
+      header nav a:hover {
+        color: rgba(255, 255, 255, 0.7); }
+  header h1 {
+    text-align: center;
+    font-size: 50px;
     font-weight: 700;
-    text-transform: uppercase; }
-    header nav a:hover {
-      color: black; }
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 20px;
+    clear: both;
+    padding-top: 75px; }
+    header h1 span {
+      display: inline-block;
+      padding: 0.5em 0.2em;
+      border: white solid 10px; }
 
 /*# sourceMappingURL=style.css.map */
