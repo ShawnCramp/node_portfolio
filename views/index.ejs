@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <title>Shawn Cramp | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,16 +10,47 @@
     <script src="/components/jquery/dist/jquery.min.js"></script>
     <link rel="stylesheet" href="/components/bootstrap/dist/css/bootstrap.css">
     <script src="/components/bootstrap/dist/js/bootstrap.js"></script>
+
 </head>
 <body>
 
     <%- include('templates/header'); %>
 
-    <div class="container">
-        Hmm
+    <div class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2 col-sm-offset-5">
+                    <h2>About Me</h2>
+                    <div class="face"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <!--<%- include('templates/footer')l %>-->
+    <div class="projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h2>Velocity</h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2>Schedulite</h2>
+                </div>
+                <div class="col-sm-4">
+                    <h2>OBD Hero</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include('templates/footer'); %>
 
 </body>
 </html>
